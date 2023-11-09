@@ -1,15 +1,15 @@
 <script setup>
-// import contactInfo from "./components/contactinfo.vue";
-// import portfolioProjects from "./components/portfolioprojects.vue";
+import contactInfo from "./components/contactInfo.vue";
+import portfolioProjects from "./components/portfolioProjects.vue";
 </script>
 
 <template>
   <main class="wrapper">
     <div class="left-side">
-      <!-- <contactInfo /> -->
+      <contactInfo />
     </div>
     <div class="right-side">
-      <!-- <portfolioProjects /> -->
+      <portfolioProjects />
     </div>
   </main>
 </template>
