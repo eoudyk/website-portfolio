@@ -1,13 +1,13 @@
 <script setup>
-// import Headshot from "../components/icons/IconHeadshot.vue";
-// import Learning from "../components/icons/learning.vue";
-// import Dog from "./dog-puppy-face-icon.vue";
+import Headshot from "../components/icons/IconHeadshot.vue";
+import Learning from "../components/icons/learningIcon.vue";
+import Dog from "../components/icons/dog-puppy-face-icon.vue";
 </script>
 
 <template>
   <div class="contact-container">
     <div class="bubble">
-      <!-- <Headshot /> -->
+      <Headshot />
       <svg
         class="bubble__tiny"
         width="20"
@@ -16,7 +16,7 @@
       >
         <circle cx="10" cy="10" r="10" fill="#fcc140" />
       </svg>
-      <!-- <Dog /> -->
+      <Dog />
       <svg
         class="bubble__medium"
         width="50"
@@ -25,7 +25,7 @@
       >
         <circle cx="25" cy="25" r="25" fill="#fcc140" />
       </svg>
-      <!-- <Learning /> -->
+      <Learning />
       <svg
         class="bubble__tiny"
         width="20"
